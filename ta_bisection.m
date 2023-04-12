@@ -1,5 +1,5 @@
 function [t_hot_out, t_cold_out, n_iter, Tc, Th] = ta_bisection(t_cold_in, t_hot_in, f)
-    % 26-04-2023
+   
   %  t_cold_in = 15; % Входная температура холодного потока (хладагента)
  %   t_hot_in = 70; % Входная температура горячего потока
     if ~(t_cold_in < t_hot_in)  % обработка возможной ошибки ввода
